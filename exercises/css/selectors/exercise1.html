@@ -3,17 +3,27 @@
 <head>
     <title>Exercise #1: Boxes and spacing</title>
     <style>
-        /* edit this part */
+       
+        body{ background: lightblue;}
+        div{background: white ;
+            width:75%;
+            height:75%;
+            margin-bottom: 1em;
+            border: 1px black solid;
+            padding: 0.5em;
+            box-shadow: black 2px 2px;
+        }
+        .word1{background: #fdfd96}
     </style>
 </head>
 <body>
 
 <h1>News</h1>
 
-<div>
+<div >
     <h2>News heading 1</h2>
 
-    <p>
+    <p  ><span class="word1">ipsum</span>        
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lorem eu porttitor luctus. Sed ac mauris
         vitae arcu consectetur tempor sed congue felis. Vivamus posuere scelerisque dapibus. Nam ultricies laoreet augue
         id semper. Sed eu lacus ac dolor volutpat ullamcorper at sed risus. Nunc sollicitudin bibendum varius. Donec
@@ -25,10 +35,10 @@
     </p>
 </div>
 
-<div>
+<div style ="border: dashed red 1px ;color: red; box-shadow: red 2px 2px">
     <h2>News heading 2</h2>
 
-    <p>
+    <p >
         Etiam in ex quis eros hendrerit sollicitudin vitae iaculis neque. Vestibulum ornare nibh lectus, nec blandit
         justo efficitur in. Morbi et porta erat, quis tristique lorem. Nunc mollis egestas ligula, id iaculis mauris
         dapibus sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -40,7 +50,7 @@
 <div>
     <h2>News heading 3</h2>
 
-    <p>
+    <p >
         Donec nec lacus et felis scelerisque iaculis a vitae nibh. Nullam in sapien condimentum erat interdum pretium
         eget sit amet ex. Duis sed enim nisl. Cras ut lacus vitae metus posuere vestibulum. Proin posuere tincidunt
         ipsum ut aliquam. Aenean lacinia urna mauris, quis volutpat nulla blandit et. Nam placerat porta ornare. Nunc
