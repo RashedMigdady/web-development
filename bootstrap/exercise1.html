@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title>Exercise #1: 960gs</title>
-    <link rel="stylesheet" href="960.css"/>
+    <title>Exercise #2: Grid layout</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <style>
         .blue {
             background-color: blue;
@@ -35,23 +36,49 @@
             height: 30px;
         }
 
-        /* add space around the clear div */
-        .clear {
-            margin-top: 10px;
+        /* add some space below the colored boxes */
+        .blue, .yellow, .green, .lightgreen, .orange {
             margin-bottom: 10px;
         }
+
     </style>
 </head>
 <body>
-<div class="container_12">
+<div class="container">
 
-    <!-- this is a single colored box; replace XXs -->
-    <div class="grid_XX">
-        <div class="XX"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="blue"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="blue"></div>
+        </div>
     </div>
+    
 
-    <!-- this is the separator between rows -->
-    <div class="clear"></div>
+
+    <div class="row">
+    <div class="col-sm-4">
+      <div class="yellow"></div>
+    </div>
+    <div class="col-sm-4">
+      <div class="yellow"></div>
+    </div>
+    <div class="col-sm-4">
+      <div class="yellow"></div>
+    </div>
+  </div>
+
+
+<div class="row">
+    <div class="col-md-8">
+    <div class="green"></div>
+    </div>
+    <div class="col-md-4">
+    <div class="lightgreen"></div>
+    </div>
+  </div>
+
 
 </div>
 
